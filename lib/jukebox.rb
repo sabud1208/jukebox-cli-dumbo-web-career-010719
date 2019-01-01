@@ -39,6 +39,7 @@ puts "Playing #{play_song}"
 else
 puts "Invalid input, please try again"
 end
+binding.pry
 end
 
 def exit_jukebox
