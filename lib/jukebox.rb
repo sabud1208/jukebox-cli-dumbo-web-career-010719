@@ -34,12 +34,12 @@ def play(songs)
    play_song = gets.chomp
    if (1..9).to_a.include?(play_song.to_i)
      puts "Playing #{songs[play_song.to_i-1]}"
+     binding.pry
    elsif songs.include?(play_song)
 puts "Playing #{play_song}"
 else
 puts "Invalid input, please try again"
 end
-binding.pry
 end
 play(songs)
 def exit_jukebox
