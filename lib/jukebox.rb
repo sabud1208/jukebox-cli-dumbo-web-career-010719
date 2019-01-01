@@ -41,7 +41,7 @@ else
 puts "Invalid input, please try again"
 end
 end
-
+puts play(songs)
 def exit_jukebox
   puts "Goodbye"
 end
