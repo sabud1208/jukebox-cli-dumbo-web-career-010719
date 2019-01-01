@@ -31,7 +31,7 @@ end
 
 def play(songs)
    puts "Please enter a song name or number:"
-   play_song = gets.chomp
+  #  play_song = gets.chomp
    if (1..9).to_a.include?(play_song.to_i)
      binding.pry
      puts "Playing #{songs[play_song.to_i-1]}"
